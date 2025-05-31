@@ -11,7 +11,7 @@ private:
 	std::string lName;
 	std::string email;
 	std::vector<int> daysToComplete;
-	std::string degreeProgram; // enumerated type from deghree.h
+	DegreeProgram degreeProgram; // enumerated type from deghree.h
 	int age;
 	
 public:
@@ -30,7 +30,7 @@ public:
 
 	std::vector<int> getDaysToComplete()  const;
 
-	std::string getDegreeProgram() const;
+	DegreeProgram getDegreeProgram() const;
 
 	int getAge() const;
 

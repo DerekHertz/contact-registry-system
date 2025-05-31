@@ -26,7 +26,7 @@ std::vector<int> student::getDaysToComplete() const { return daysToComplete; }
 
 int student::getAge() const { return age; }
 
-std::string student::getDegreeProgram() const { return degreeProgram; }
+DegreeProgram student::getDegreeProgram() const { return degreeProgram; }
 
 // initialize setter functions to modify private members
 void student::setStudentID(std::string studentID) { this->studentID = studentID; }
@@ -58,7 +58,7 @@ student::student(std::string studentID, std::string fName, std::string lName, st
 std::string student::printInfo() {
 	std::string studentInfo = studentID + "\tFirst Name: " + fName + "\tLast Name: " + lName + "\tEmail: " + email + "\tAge: " + std::to_string(age) + "\t";
 	std::string daysInCourse = "daysInCourse: {" + std::to_string(daysToComplete.at(0)) + ", " + std::to_string(daysToComplete.at(1)) + ", " + std::to_string(daysToComplete.at(2)) + "} ";
-	std::string program = "Degree Program: " + degreeProgram;
+	std::string program = "Degree Program: " + degreeToString(degreeProgram);
 
 	return studentInfo + daysInCourse + program;
 }
