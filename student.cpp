@@ -45,13 +45,13 @@ void student::setDegreeProgram(DegreeProgram degreeProgram) { this->degreeProgra
 
 
 // constructor
-student::student(std::string studentID, std::string fName, std::string lName, std::string email, std::vector<int> daysToComplete, int age, DegreeProgram degreeProgram) {
+student::student(std::string studentID, std::string fName, std::string lName, std::string email, int age, std::vector<int> daysToComplete, DegreeProgram degreeProgram) {
 	this->studentID = studentID;
 	this->fName = fName;
 	this->lName = lName;
 	this->email = email;
-	this->daysToComplete = daysToComplete;
 	this->age = age;
+	this->daysToComplete = daysToComplete;
 	this->degreeProgram = degreeProgram;
 }
 

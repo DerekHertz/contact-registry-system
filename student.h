@@ -55,9 +55,9 @@ public:
 		std::string studentID, 
 		std::string fName, 
 		std::string lName, 
-		std::string email, 
-		std::vector<int> daysToComplete, 
+		std::string email,  
 		int age, 
+		std::vector<int> daysToComplete,
 		DegreeProgram degreeProgram
 	);
 	
