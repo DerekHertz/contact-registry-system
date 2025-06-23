@@ -18,12 +18,6 @@ This project demonstrates core C++ programming skills through the implementation
 - Input/output operations
 - Data parsing and validation
 
-## Getting Started
-
-1. Clone the repository
-2. Open the project in your preferred C++ IDE (e.g., Visual Studio 2022).
-3. Build and run the project.
-
 ## Usage
 
 The program allows you to:
