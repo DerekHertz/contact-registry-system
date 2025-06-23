@@ -24,11 +24,11 @@ int main()
 
     classRoster.printByDegreeProgram(SOFTWARE);
 
-    classRoster.remove("A3");
+    classRoster.remove("A5");
 
     classRoster.printAll();
 
-    classRoster.remove("A3");
+    classRoster.remove("A5");
 
     //expected: the above line should print a message saying such a student with this ID was not found.
 
